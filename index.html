@@ -7,6 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 id="my-id"></h1>
+
+    <!-- Inline (not recommended) -->
+    <button onclick="confirm('Are you sure?')">Delete</button>
+
+    <!-- Inline (it's ok) -->
+    <button onclick="getConfirmation('Are you sure?')">Delete</button>
+
+    <!-- Internal -->
+    <script>
+        let pageElement = document.getElementById('my-id');
+            pageElement.innerHTML = "Hello Everyone!";
+    </script>
+
+    <!-- External -->
     <script src="./js/script.js"></script>
 </body>
 </html>
