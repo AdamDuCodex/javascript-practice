@@ -17,3 +17,12 @@ function getConfirmation(param) {
     var disp = `response ${response? 'OK':'Cancel'}  was clicked!`;
     console.log(disp);
 }
+
+var bigword = "Supercalifragilisticexpialidocious";
+console.log(bigword.length);
+
+var myNumber = 15;
+console.log(typeof myNumber, myNumber);
+
+var myBigInt = 11234235252413412n;
+console.log(typeof myBigInt, myBigInt);
