@@ -18,11 +18,12 @@ function getConfirmation(param) {
     console.log(disp);
 }
 
-var bigword = "Supercalifragilisticexpialidocious";
-console.log(bigword.length);
+// Solution for Daily-Challenge Day 2
+let myString = "Supercalifragilisticexpialidocious";
+let anyNumber = 15;
+let anyBigInt = 5287528379513984145783528397n;
+console.log("myString.length = ", myString.length);
 
-var myNumber = 15;
-console.log(typeof myNumber, myNumber);
-
-var myBigInt = 11234235252413412n;
-console.log(typeof myBigInt, myBigInt);
+console.log('anyNumber = ', anyNumber, `this is a ${typeof(anyNumber)}`);
+console.log('anyBigInt = ', anyBigInt, `this is a ${typeof(anyanyBigInt)}`);
+console.log(`anyBigInt =  ${anyBigInt} this is a ${typeof(anyBigInt)}`);
